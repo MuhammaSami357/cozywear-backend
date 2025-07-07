@@ -1,0 +1,17 @@
+# Node modules folder (bohot heavy hota hai)
+node_modules/
+
+# Secret environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Optional: VSCode ka config 
+.vscode/
