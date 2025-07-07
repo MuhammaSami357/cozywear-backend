@@ -9,7 +9,10 @@ connectDB();
 const app = express();
 
 // Middlewares
-app.use(cors());
+app.use(cors({
+  origin: "https://https://tourmaline-eclair-c8ffa2.netlify.app/",
+  credentials: true
+}));
 app.use(express.json());
 
 // API Routes
